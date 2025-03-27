@@ -1,0 +1,63 @@
+{{- define "main" }}
+
+<!-- Hero Section -->
+<div class="hero-section">
+    <h1>Find Your Next Biodesign Career</h1>
+    <p>Discover opportunities at the intersection of biology and design. Browse the latest jobs and stay updated with industry insights.</p>
+    <a href="/jobs" class="button">View All Jobs</a>
+</div>
+
+<!-- Latest Jobs Section -->
+<h2 class="section-heading">Latest Job Opportunities</h2>
+<div class="posts-list">
+    {{ $jobs := where .Site.RegularPages "Section" "jobs" }}
+    {{ range first 5 $jobs }}
+    <article class="post-entry">
+        <header class="entry-header">
+            <h3>{{ .Title }}</h3>
+            <div class="entry-meta">
+                <span>{{ .Params.company }}</span> • 
+                <span>{{ .Params.city }}, {{ .Params.region }}</span> • 
+                <span>{{ .Params.employmentType }}</span>
+            </div>
+        </header>
+        <div class="entry-content">
+            <p>{{ .Summary }}</p>
+        </div>
+        <footer class="entry-footer">
+            <a href="{{ .Permalink }}">View Job Details →</a>
+        </footer>
+    </article>
+    {{ end }}
+</div>
+<div class="read-more-section">
+    <a href="/jobs" class="button">View All Jobs</a>
+</div>
+
+<!-- Latest Articles Section -->
+<h2 class="section-heading">Latest Articles</h2>
+<div class="posts-list">
+    {{ $articles := where .Site.RegularPages "Section" "articles" }}
+    {{ range first 3 $articles }}
+    <article class="post-entry">
+        <header class="entry-header">
+            <h3>{{ .Title }}</h3>
+            <div class="entry-meta">
+                <span>{{ .Date.Format "January 2, 2006" }}</span>
+                {{ with .Params.author }} • <span>{{ . }}</span>{{ end }}
+            </div>
+        </header>
+        <div class="entry-content">
+            <p>{{ .Summary }}</p>
+        </div>
+        <footer class="entry-footer">
+            <a href="{{ .Permalink }}">Read More →</a>
+        </footer>
+    </article>
+    {{ end }}
+</div>
+<div class="read-more-section">
+    <a href="/articles" class="button">View All Articles</a>
+</div>
+
+{{- end }}

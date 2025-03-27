@@ -1,0 +1,197 @@
+/* Button styles */
+.button {
+    background-color: #8A4FFF;
+    color: #fff !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.1s ease;
+    border: 1px solid #8A4FFF;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+
+.button:hover,
+.post-entry .entry-footer a:hover {
+    background-color: transparent;
+    color: #8A4FFF !important;
+    text-decoration: none;
+}
+
+/* Job listing styles */
+.job-meta {
+    background: var(--entry);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+    border: 1px solid var(--border);
+}
+
+.job-meta-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.job-meta-item:last-child {
+    margin-bottom: 0;
+}
+
+.job-meta-label {
+    font-weight: bold;
+    min-width: 120px;
+}
+
+.company-logo {
+    max-width: 150px;
+    max-height: 150px;
+    margin: 20px 0;
+}
+
+/* Hero section styles */
+.hero-section {
+    text-align: left;
+    padding: 60px 0px;
+    /*background: linear-gradient(135deg, #8A4FFF 0%, #6B3FA0 100%);*/
+
+    margin-bottom: 40px;
+}
+
+.hero-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 0 30px;
+    text-align: left;
+}
+
+/* Section headings */
+.section-heading {
+    font-size: 1.8em;
+    margin: 40px 0 20px;
+    padding-bottom: 0px;
+   
+}
+
+/* edits to posts meta */
+.post-meta { 
+    font-family: monospace;
+    font-size: 0.9rem;
+    color: var(--secondary);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.apply-now-button{
+    color: #9370DB;
+    text-decoration: underline;
+    
+}
+
+
+
+.post-meta .apply-now-button {
+    color: #8A4FFF !important;
+    cursor: pointer;
+    display: inline-flex;  /* Better vertical alignment */
+    align-items: center;
+}
+
+.post-meta .apply-now-button:hover {
+    color: #ae83fe !important;
+}
+
+.post-meta .apply-button button {
+    background: transparent;
+    color: #9370DB;
+    text-decoration: underline;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    
+} 
+
+.post-meta span {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.entry-footer .post-meta .apply-now-button {
+    background: none;
+    border: none;
+    color: #8A4FFF !important;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+    font-family: monospace;
+    font-size: 0.9rem;
+    display: inline;  /* Remove flex display */
+    margin: 0;
+    
+}
+
+.entry-footer .post-meta .apply-now-button:hover {
+    color: #ae83fe !important;
+    text-decoration: underline;
+}
+
+/* Post a Role button in header */
+.nav a[href="/post/"] {
+    color: #8A4FFF !important;
+}
+
+.nav a[href="/post/"]:hover {
+    color: #6B3FA0 !important;
+}
+
+/* Read more buttons */
+.read-more-section {
+    text-align: left;
+    margin: 30px 0;
+}
+
+/* Search box styling */
+.search-box {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid var(--border);
+    border-radius: 5px;
+    font-size: 1.1em;
+    background: var(--entry);
+    color: var(--primary);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 40px 15px;
+    }
+
+    .hero-section h1 {
+        font-size: 2em;
+    }
+
+    .job-meta-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .job-meta-label {
+        margin-bottom: 5px;
+    }
+}

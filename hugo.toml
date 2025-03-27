@@ -1,0 +1,110 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Biodesign Jobs"
+theme = "PaperMod"
+
+# Enable Google Analytics
+# googleAnalytics = "" # Will need to be filled with actual GA ID
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "Biodesign Jobs"
+description = "Careers in biodesign, biofabrication, biomaterials and the larger bioeconomy along with industry insights"
+keywords = ["biodesign", "jobs", "career", "biotechnology", "design"]
+author = "Biodesign Jobs"
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = false
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = false
+ShowCodeCopyButtons = true
+ShowWordCount = false
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+# Custom CSS for purple buttons
+customCSS = ["css/custom.css"]
+
+[markup.goldmark.renderer]
+unsafe = true # Allow raw HTML in content files
+
+[markup]
+[markup.highlight]
+noClasses = false
+
+[security]
+enableInlineShortcodes = false
+
+  [params.profileMode]
+  enabled = false
+  title = "Biodesign Jobs"
+  subtitle = ""
+  imageUrl = ""
+  imageTitle = ""
+
+  [params.homeInfoParams]
+  Title = "Find your niche in the bioeconomy!"
+  Content = """
+Welcome to the premier job board and content platform for the biodesign field. 
+Find your next career opportunity or stay updated with the latest industry insights.
+"""
+
+  [[params.socialIcons]]
+  name = "email"
+  url = "info@biodesignjobs.com"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/company/biodesignjobs/"
+
+[menu]
+  [[menu.main]]
+  identifier = "jobs"
+  name = "Jobs"
+  url = "/jobs/"
+  weight = 10
+
+  [[menu.main]]
+  identifier = "articles"
+  name = "Articles"
+  url = "/articles/"
+  weight = 20
+
+  [[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 30
+
+  [[menu.main]]
+  identifier = "post"
+  name = "Post"
+  url = "/post/"
+  weight = 40
+
+  # [[menu.main]]
+  # identifier = "search"
+  # name = "Search"
+  # url = "/search/"
+  # weight = 50
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]

@@ -1,0 +1,95 @@
+{{- define "main" }}
+
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+    <div class="post-description">Search for jobs and articles</div>
+</header>
+
+<div id="searchbox">
+    <input id="searchInput" class="search-box" autofocus placeholder="Search jobs and articles..." aria-label="search" type="search" autocomplete="off">
+    <ul id="searchResults" aria-label="search results"></ul>
+</div>
+
+<!-- Add custom styling for search results -->
+<style>
+#searchResults li {
+    list-style: none;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#searchResults li:hover {
+    background-color: #f5f5f5;
+}
+
+#searchResults li > a {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+#searchResults li > a:hover {
+    color: #8A4FFF;
+}
+
+.search-section {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+</style>
+
+<!-- Enhance search results display -->
+<script>
+window.addEventListener('load', () => {
+    const originalFuseOptions = {
+        isCaseSensitive: false,
+        shouldSort: true,
+        location: 0,
+        distance: 100,
+        threshold: 0.1,
+        minMatchCharLength: 2,
+        keys: [
+            "title",
+            "permalink",
+            "summary",
+            "content",
+            "company",
+            "tags"
+        ]
+    };
+
+    const originalResultTemplate = (r) => {
+        const section = r.item.section || '';
+        const sectionLabel = section === 'jobs' ? 'Job Posting' : 
+                           section === 'articles' ? 'Article' : '';
+        
+        let details = '';
+        if (section === 'jobs' && r.item.company) {
+            details = `<div class="search-section">
+                ${r.item.company} • ${r.item.city || ''}, ${r.item.region || ''}
+            </div>`;
+        } else if (section === 'articles' && r.item.date) {
+            details = `<div class="search-section">
+                Published: ${new Date(r.item.date).toLocaleDateString()}
+            </div>`;
+        }
+
+        return `
+            <li>
+                <a href="${r.item.permalink}">${r.item.title}</a>
+                ${details}
+                <div class="search-section">${sectionLabel}</div>
+            </li>
+        `;
+    };
+
+    window.fuseOptions = originalFuseOptions;
+    window.resultTemplate = originalResultTemplate;
+});
+</script>
+
+{{- end }}

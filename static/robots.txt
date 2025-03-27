@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: /sitemap.xml
+
+# Disallow drafts and specific paths
+Disallow: /admin/
+Disallow: /draft/
+Disallow: /private/
+
+# Allow search engines to crawl job listings and articles
+Allow: /jobs/
+Allow: /articles/
