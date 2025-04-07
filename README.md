@@ -82,7 +82,7 @@ The site will be available at `http://localhost:1313/`
 
 ```
 biodesign-jobs/
-├── archetypes/        # Content templates
+├── archetypes/       # Content templates
 ├── assets/           
 │   └── css/          # Custom CSS
 ├── content/
@@ -137,7 +137,7 @@ Add custom styles to `assets/css/custom.css`. The file is already configured in 
 
 1. Build the site:
    ```bash
-   hugo
+   hugo serve
    ```
 
 2. The built site will be in the `public/` directory
