@@ -1,7 +1,7 @@
 ---
 title: Perugia, Perugia, Italy
 date: '2025-04-03T00:00:00.000Z'
-validThrough: '2025-05-08T03:15:17.737Z'
+validThrough: '2025-05-08T03:44:15.428Z'
 draft: false
 employmentType: FULL_TIME
 company: Hypesound
