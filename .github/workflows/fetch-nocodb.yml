@@ -1,0 +1,80 @@
+name: Fetch NocoDB Data and Update Site
+
+on:
+  # Trigger on pushes to the main branch (adjust branch name if needed)
+  push:
+    branches:
+      - main # Or master, production, etc.
+  # Trigger manually from the Actions tab
+  workflow_dispatch:
+  # Optional: Trigger on a schedule (e.g., every day at midnight UTC)
+  # schedule:
+  #   - cron: '0 0 * * *'
+
+jobs:
+  fetch_and_build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # --- Setup your scripting environment (Choose ONE - Node.js or Python) ---
+
+      # Option 1: Setup Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Or your preferred Node.js version
+          cache: 'npm'
+      - name: Install Node.js dependencies
+        run: npm ci # Assumes package.json and package-lock.json exist
+
+      # Option 2: Setup Python
+      # - name: Set up Python
+      #   uses: actions/setup-python@v5
+      #   with:
+      #     python-version: '3.11' # Or your preferred Python version
+      # - name: Install Python dependencies
+      #   run: |
+      #     python -m pip install --upgrade pip
+      #     # Ensure you have a requirements.txt listing libraries like 'requests'
+      #     if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      # --- Run the fetch script ---
+      - name: Fetch data from NocoDB API
+        # Adjust the run command based on your script (node or python)
+        run: node ./scripts/fetch-data.js # OR: python ./scripts/fetch_data.py
+        env:
+          # Use the NocoDB API key secret you created
+          NOCODB_APIKEY: ${{ secrets.NOCODB_APIKEY }}
+
+          # --- IMPORTANT: Add other necessary NocoDB details as secrets ---
+          # You'll likely need your NocoDB instance URL and specific Base/Table IDs.
+          # Add these as secrets in GitHub (e.g., NOCODB_URL, NOCODB_BASE_ID, NOCODB_TABLE_NAME)
+          # and uncomment/add them here:
+          # NOCODB_URL: ${{ secrets.NOCODB_URL }}
+          # NOCODB_BASE_ID: ${{ secrets.NOCODB_BASE_ID }}
+          # NOCODB_TABLE_NAME: ${{ secrets.NOCODB_TABLE_NAME }}
+          # Add any other environment variables your specific script needs
+
+      # --- Commit and push data changes ---
+      - name: Commit data files
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          # Stage changes ONLY in the data directory
+          git add data/
+          # Check if there are changes to commit in the data/ directory
+          if git diff --staged --quiet data/; then
+            echo "No data changes to commit."
+          else
+            # Update commit message for NocoDB
+            git commit -m "chore: Update data from NocoDB [skip ci]"
+            echo "NocoDB data changes committed."
+          fi
+      - name: Push changes
+        # This action pushes changes back to the repo, triggering Cloudflare Pages
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
