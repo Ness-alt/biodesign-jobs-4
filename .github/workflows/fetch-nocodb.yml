@@ -32,6 +32,12 @@ jobs:
             echo '{"name":"biodesign-jobs","version":"1.0.0","private":true,"dependencies":{}}' > package.json
           fi
       
+      - name: Generate package-lock.json if needed
+        run: |
+          if [ ! -f package-lock.json ]; then
+            npm install
+          fi
+      
       - name: Install required dependencies
         run: npm install axios js-yaml
 
