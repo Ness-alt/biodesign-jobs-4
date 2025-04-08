@@ -12,8 +12,8 @@ buildFuture = false
 buildExpired = false
 
 [minify]
-disableXML = true
-minifyOutput = true
+disableXML = false
+minifyOutput = false
 
 [params]
 env = "production"
@@ -50,6 +50,10 @@ unsafe = true # Allow raw HTML in content files
 [markup.highlight]
 noClasses = false
 
+# Disable schema JSON generation
+[params.schema]
+disable = true
+
 [security]
 enableInlineShortcodes = false
 
@@ -74,6 +78,12 @@ Find your next career opportunity or stay updated with the latest industry insig
   [[params.socialIcons]]
   name = "linkedin"
   url = "https://www.linkedin.com/company/biodesignjobs/"
+
+  [params.jobs]
+  # Jobs section configuration
+  enable = true
+  title = "Jobs"
+  folder = "jobs"
 
 [menu]
   [[menu.main]]

@@ -1,0 +1,34 @@
+{{- define "main" }}
+   
+
+<!-- Hero Section -->
+<div class="hero-section">
+    <h1>Find Your Next Biodesign Career</h1>
+    <p>Discover opportunities at the intersection of biology and design. Browse the latest jobs and stay updated with industry insights.</p>
+    <a href="/jobs" class="button">View All Jobs</a>
+</div>
+
+<!-- Latest Jobs Section -->
+<h2 class="section-heading">Latest Job Opportunities</h2>
+
+<!-- Debug information -->
+<div style="background: #ffebee; padding: 10px; margin: 10px 0;">
+    {{ $jobs := where .Site.RegularPages "Section" "jobs" }}
+    <p>Debug: Found {{ len $jobs }} jobs</p>
+</div>
+
+
+
+<div class="posts-list">
+    {{ $jobs := where .Site.RegularPages "Section" "jobs" }}
+    {{ range first 5 $jobs }}
+    <article class="post-entry">
+        <!-- ...existing code... -->
+    </article>
+    {{ end }}
+</div>
+
+
+
+{{- end }}
+
