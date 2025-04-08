@@ -46,9 +46,9 @@ applyto: ""
   "baseSalary": {
     "@type": "MonetaryAmount",
     "currency": "{{ .Params.salaryCurrency }}",
-    "value": {
+      "value": {
       "@type": "QuantitativeValue",
-      "value": {{ .Params.salaryValue }},
+      "value": "{{ .Params.salaryValue }}",
       "unitText": "{{ .Params.salaryUnit }}"
     }
   }
@@ -104,5 +104,3 @@ applyto: ""
 <div class="read-more-section">
   <a href="{{ .Params.companyUrl }}/careers" class="apply-now-button" target="_blank">Apply Now</a>
 </div>
-
-
