@@ -25,7 +25,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20' # Or your preferred Node.js version
-          cache: 'npm'
       - name: Create package.json if needed
         run: |
           if [ ! -f package.json ]; then
