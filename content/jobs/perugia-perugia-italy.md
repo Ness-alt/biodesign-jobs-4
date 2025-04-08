@@ -15,7 +15,7 @@ country: ' Italy'
 salaryCurrency: USD
 salaryValue: 0
 salaryUnit: YEAR
-tags: []
+tags: [test]
 applyto: ''
 ---
 

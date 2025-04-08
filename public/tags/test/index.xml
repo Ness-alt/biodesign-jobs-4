@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Test on Biodesign Jobs</title>
+    <link>//localhost:57407/tags/test/</link>
+    <description>Recent content in Test on Biodesign Jobs</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:57407/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Perugia, Perugia, Italy</title>
+      <link>//localhost:57407/jobs/perugia-perugia-italy/</link>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:57407/jobs/perugia-perugia-italy/</guid>
+      <description>&lt;p&gt;Chi siamo – HypesoundStiamo reinventando la fermentazione microbica grazie a una tecnologia brevettata basata sulle onde sonore. Il nostro approccio plug-and-play migliora significativamente la produttività di microalghe, lieviti e batteri, integrandosi facilmente in fermentatori e bioreattori già esistenti.&lt;/p&gt;
+&lt;p&gt;Siamo una Bio/Deep-tech startup in rapida crescita, alla ricerca di menti curiose, competenti e appassionate di innovazione scientifica. Se vuoi contribuire in prima linea alla validazione e all’evoluzione di una tecnologia destinata a rivoluzionare la bioproduzione sostenibile, potresti essere la persona giusta per noi.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

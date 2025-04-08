@@ -15,7 +15,7 @@ country: ''
 salaryCurrency: USD
 salaryValue: 0
 salaryUnit: YEAR
-tags: []
+tags: ['sales']
 applyto: ''
 ---
 ### About the Job
