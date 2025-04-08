@@ -16,6 +16,7 @@ salaryValue: 110-180k
 salaryUnit: "YEAR"
 tags: ["biodesign", "footwear"]
 applyto: "https://jobs.lever.co/OXMAN/d129202c-4161-46d6-89b7-70ccb2164041"
+section: "jobs"
 ---
 
 OXMAN is a hybrid Design and R&D company that fuses design, technology, and biology to invent multi-scale products and environments. The fusion of disciplines within our work opens previously impossible opportunities within each domain—allowing design to inspire science and science to inspire design.

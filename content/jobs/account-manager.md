@@ -17,6 +17,7 @@ salaryValue: 0
 salaryUnit: YEAR
 tags: ['sales']
 applyto: ''
+section: "jobs"
 ---
 ### About the Job
 

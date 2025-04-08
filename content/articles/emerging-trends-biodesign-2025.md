@@ -7,6 +7,7 @@ tags: ["trends", "innovation", "synthetic-biology", "sustainability", "biomateri
 author: "Dr. Sarah Chen"
 showToc: true
 TocOpen: false
+section: "articles"
 ---
 
 The field of biodesign continues to evolve rapidly, bringing together biological principles, advanced materials science, and innovative design thinking. As we move through 2025, several key trends are emerging that will shape the future of this dynamic field. Here's our analysis of the most significant developments in biodesign.

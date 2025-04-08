@@ -16,6 +16,7 @@ salaryValue: 0
 salaryUnit: "YEAR" # HOUR, DAY, WEEK, MONTH, YEAR
 tags: []
 applyto: ""
+section: "jobs"
 ---
 
 

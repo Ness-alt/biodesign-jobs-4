@@ -3,7 +3,7 @@ Title: Living Ink CEO Scott Fulbright on building a bio-based company
 date: '2025-01-09T16:20:56-05:00'
 draft: false
 tags: ["blog"]
-section: "blog"
+section: "articles"
 ---
 
 **Carbon black is a widely used pigment**, ubiquitous in common household items. It’s what gives black coloration to things like pen ink and tires, and it’s also what gives mascara its dark color. Unfortunately, conventional carbon black is derived from petroleum and has been linked with cancer.

@@ -16,6 +16,7 @@ salaryValue: 150000
 salaryUnit: "YEAR"
 tags: ["bioengineering", "synthetic-biology", "medical-devices", "senior-level"]
 applyto: "https://www.example.com"
+section: "jobs"
 ---
 
 Moderna Therapeutics is seeking a Senior Biodesign Engineer to join our innovative team developing next-generation therapeutic solutions using synthetic biology and advanced materials design.

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on Biodesign Jobs</title>
-    <link>//localhost:1313/tags/blog/</link>
+    <link>//localhost:49997/tags/blog/</link>
     <description>Recent content in Blog on Biodesign Jobs</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 09 Jan 2025 16:20:56 -0500</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:49997/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Living Ink CEO Scott Fulbright on building a bio-based company</title>
-      <link>//localhost:1313/articles/living-ink/</link>
+      <link>//localhost:49997/articles/living-ink/</link>
       <pubDate>Thu, 09 Jan 2025 16:20:56 -0500</pubDate>
-      <guid>//localhost:1313/articles/living-ink/</guid>
+      <guid>//localhost:49997/articles/living-ink/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Carbon black is a widely used pigment&lt;/strong&gt;, ubiquitous in common household items. It’s what gives black coloration to things like pen ink and tires, and it’s also what gives mascara its dark color. Unfortunately, conventional carbon black is derived from petroleum and has been linked with cancer.&lt;/p&gt;
 &lt;p&gt;Scott Fulbright, Founder and CEO of &lt;a href=&#34;https://www.livingink.co/?utm_source=materialfactors&#34;&gt;Living Ink&lt;/a&gt;, is on a mission to provide safer pigments. Living Ink produces a bio-based alternative made from algae waste. The pigment, and inks made from it, hold promise for safer means of printing on paper, fabric and more.&lt;/p&gt;</description>
     </item>

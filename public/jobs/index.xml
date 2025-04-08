@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Jobs on Biodesign Jobs</title>
-    <link>//localhost:57407/jobs/</link>
+    <link>//localhost:1313/jobs/</link>
     <description>Recent content in Jobs on Biodesign Jobs</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 07 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:57407/jobs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/jobs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Account Manager</title>
-      <link>//localhost:57407/jobs/account-manager/</link>
+      <link>//localhost:1313/jobs/account-manager/</link>
       <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:57407/jobs/account-manager/</guid>
+      <guid>//localhost:1313/jobs/account-manager/</guid>
       <description>&lt;h3 id=&#34;about-the-job&#34;&gt;About the Job&lt;/h3&gt;
 &lt;p&gt;🎯 Account manager&lt;/p&gt;
 &lt;p&gt;🌍 London, N4&lt;/p&gt;
@@ -24,34 +24,34 @@
     </item>
     <item>
       <title>Perugia, Perugia, Italy</title>
-      <link>//localhost:57407/jobs/perugia-perugia-italy/</link>
+      <link>//localhost:1313/jobs/perugia-perugia-italy/</link>
       <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:57407/jobs/perugia-perugia-italy/</guid>
+      <guid>//localhost:1313/jobs/perugia-perugia-italy/</guid>
       <description>&lt;p&gt;Chi siamo – HypesoundStiamo reinventando la fermentazione microbica grazie a una tecnologia brevettata basata sulle onde sonore. Il nostro approccio plug-and-play migliora significativamente la produttività di microalghe, lieviti e batteri, integrandosi facilmente in fermentatori e bioreattori già esistenti.&lt;/p&gt;
 &lt;p&gt;Siamo una Bio/Deep-tech startup in rapida crescita, alla ricerca di menti curiose, competenti e appassionate di innovazione scientifica. Se vuoi contribuire in prima linea alla validazione e all’evoluzione di una tecnologia destinata a rivoluzionare la bioproduzione sostenibile, potresti essere la persona giusta per noi.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Controls Engineer</title>
-      <link>//localhost:57407/jobs/controls-engineer/</link>
+      <link>//localhost:1313/jobs/controls-engineer/</link>
       <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:57407/jobs/controls-engineer/</guid>
+      <guid>//localhost:1313/jobs/controls-engineer/</guid>
       <description>&lt;h1 id=&#34;job-application-for-controls-engineer-at-mycoworks&#34;&gt;Job Application for Controls Engineer at MycoWorks&lt;/h1&gt;
 &lt;p&gt;For government reporting purposes, we ask candidates to respond to the below self-identification survey. Completion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring process or thereafter. Any information that you do provide will be recorded and maintained in a confidential file.&lt;/p&gt;
 &lt;p&gt;As set forth in MycoWorks’s Equal Employment Opportunity policy, we do not discriminate on the basis of any protected group status under any applicable law.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Footwear Designer</title>
-      <link>//localhost:57407/jobs/oxman---footwear-designer/</link>
+      <link>//localhost:1313/jobs/oxman---footwear-designer/</link>
       <pubDate>Mon, 17 Mar 2025 16:34:00 -0400</pubDate>
-      <guid>//localhost:57407/jobs/oxman---footwear-designer/</guid>
+      <guid>//localhost:1313/jobs/oxman---footwear-designer/</guid>
       <description>&lt;p&gt;OXMAN is a hybrid Design and R&amp;amp;D company that fuses design, technology, and biology to invent multi-scale products and environments. The fusion of disciplines within our work opens previously impossible opportunities within each domain—allowing design to inspire science and science to inspire design.&lt;/p&gt;
 &lt;p&gt;At OXMAN, we question dominant modes of design that have divorced us from Nature by prioritizing humanity above all else (human-centric design). Although it is design that has caused this rift, we believe that design also offers the greatest opportunity to heal it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Senior Biodesign Engineer</title>
-      <link>//localhost:57407/jobs/senior-biodesign-engineer-moderna-copy/</link>
+      <link>//localhost:1313/jobs/senior-biodesign-engineer-moderna-copy/</link>
       <pubDate>Mon, 17 Mar 2025 16:34:00 -0400</pubDate>
-      <guid>//localhost:57407/jobs/senior-biodesign-engineer-moderna-copy/</guid>
+      <guid>//localhost:1313/jobs/senior-biodesign-engineer-moderna-copy/</guid>
       <description>&lt;p&gt;Moderna Therapeutics is seeking a Senior Biodesign Engineer to join our innovative team developing next-generation therapeutic solutions using synthetic biology and advanced materials design.&lt;/p&gt;
 &lt;h2 id=&#34;about-the-role&#34;&gt;About the Role&lt;/h2&gt;
 &lt;p&gt;As a Senior Biodesign Engineer, you will lead the development of novel biomaterial platforms for drug delivery and tissue engineering applications. You will work at the intersection of synthetic biology, materials science, and medical device development to create groundbreaking therapeutic solutions.&lt;/p&gt;
@@ -91,9 +91,19 @@
     </item>
     <item>
       <title>Paper &amp; Coating Engineer</title>
-      <link>//localhost:57407/jobs/paper-coating-engineer/</link>
+      <link>//localhost:1313/jobs/paper-coating-engineer-copy/</link>
       <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:57407/jobs/paper-coating-engineer/</guid>
+      <guid>//localhost:1313/jobs/paper-coating-engineer-copy/</guid>
+      <description>&lt;h1 id=&#34;paper--coating-engineer--jobs-at-notpla-limited&#34;&gt;Paper &amp;amp; Coating Engineer | Jobs at Notpla Limited&lt;/h1&gt;
+&lt;h5 id=&#34;the-role&#34;&gt;The Role&lt;/h5&gt;
+&lt;p&gt;At Notpla we’re at the leading edge of sustainable innovation, creating natural alternatives to single-use plastic packaging that’s carefully engineered to create a healthier planet. Founded on the belief that nature knows best, we’re an innovative, ideas and action-oriented scale-up who develop and manufacture uncompromisingly natural packaging solutions from seaweed and plants.&lt;/p&gt;
+&lt;p&gt;As a Paper &amp;amp; Coating Engineer, you’ll be joining an innovative, fast moving and agile Formulation &amp;amp; Process team that pride themselves on their pivotal research and development.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Paper &amp; Coating Engineer</title>
+      <link>//localhost:1313/jobs/paper-coating-engineer/</link>
+      <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/jobs/paper-coating-engineer/</guid>
       <description>&lt;h1 id=&#34;paper--coating-engineer--jobs-at-notpla-limited&#34;&gt;Paper &amp;amp; Coating Engineer | Jobs at Notpla Limited&lt;/h1&gt;
 &lt;h5 id=&#34;the-role&#34;&gt;The Role&lt;/h5&gt;
 &lt;p&gt;At Notpla we’re at the leading edge of sustainable innovation, creating natural alternatives to single-use plastic packaging that’s carefully engineered to create a healthier planet. Founded on the belief that nature knows best, we’re an innovative, ideas and action-oriented scale-up who develop and manufacture uncompromisingly natural packaging solutions from seaweed and plants.&lt;/p&gt;

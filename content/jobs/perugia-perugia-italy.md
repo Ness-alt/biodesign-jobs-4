@@ -17,6 +17,7 @@ salaryValue: 0
 salaryUnit: YEAR
 tags: [test]
 applyto: ''
+section: "jobs"
 ---
 
 Chi siamo – HypesoundStiamo reinventando la fermentazione microbica grazie a una tecnologia brevettata basata sulle onde sonore. Il nostro approccio plug-and-play migliora significativamente la produttività di microalghe, lieviti e batteri, integrandosi facilmente in fermentatori e bioreattori già esistenti.
