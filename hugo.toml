@@ -24,6 +24,7 @@ author = "Biodesign Jobs"
 DateFormat = "January 2, 2006"
 defaultTheme = "auto"
 disableThemeToggle = false
+mainSections = ["jobs", "articles"]
 ShowReadingTime = false
 ShowShareButtons = false
 ShowPostNavLinks = true

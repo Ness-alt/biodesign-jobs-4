@@ -10,16 +10,30 @@
 <!-- Latest Jobs Section -->
 <h2 class="section-heading">Latest Job Opportunities</h2>
 <div class="job-listings">
-    {{/* Sort regular pages by date descending, filter for 'jobs' section, take the first 5 */}}
-    {{ range first 5 (where .Site.RegularPages.ByDate.Reverse "Section" "jobs") }}
+    {{/* Debug information */}}
+    <div style="display: none;">
+        {{ $allPages := .Site.Pages }}
+        Total pages: {{ len $allPages }}
+        
+        {{ $jobPages := where .Site.Pages "Section" "jobs" }}
+        Job pages: {{ len $jobPages }}
+    </div>
+    
+    {{/* Sort pages by date descending, filter for 'jobs' section, take the first 5 */}}
+    {{ range first 5 (where .Site.Pages "Section" "jobs") }}
         <div class="job-listing">
             <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
             {{/* Use .Params.description if available, otherwise fallback to .Summary */}}
-            <p>{{ .Params.description | default .Summary | truncate 150 }}</p>
-            <p><strong>Location:</strong> {{ .Params.location | default "N/A" }}</p>
+            <p>{{ .Summary | truncate 150 }}</p>
+            <p><strong>Location:</strong> 
+                {{ if .Params.city }}{{ .Params.city }}{{ if .Params.region }}, {{ .Params.region }}{{ end }}{{ else }}N/A{{ end }}
+            </p>
             <p><strong>Company:</strong> {{ .Params.company | default "N/A" }}</p>
-            <p><small>Posted on: {{ .Date.Format "January 2, 2006" }}</small></p> {{/* Added post date */}}
+            <p><strong>Type:</strong> {{ .Params.employmentType | default "N/A" }}</p>
+            <p><small>Posted on: {{ .Date.Format "January 2, 2006" }}</small></p>
         </div>
+    {{ else }}
+        <p>No job listings found.</p>
     {{ end }}
 </div>
 
@@ -29,7 +43,32 @@
 
 <!-- Latest Articles Section -->
 <h2 class="section-heading">Latest Articles</h2>
-
+<div class="posts-list">
+    {{/* Debug information */}}
+    <div style="display: none;">
+        {{ $allPages := .Site.Pages }}
+        Total pages: {{ len $allPages }}
+        
+        {{ $articlePages := where .Site.Pages "Section" "articles" }}
+        Article pages: {{ len $articlePages }}
+    </div>
+    
+    {{ range first 3 (where .Site.Pages "Section" "articles") }}
+    <article class="post-entry">
+        <header class="entry-header">
+            <h3>{{ .Title }}</h3>
+        </header>
+        <div class="entry-content">
+            <p>{{ .Summary }}</p>
+        </div>
+        <footer class="entry-footer">
+            <a href="{{ .Permalink }}">Read Article →</a>
+        </footer>
+    </article>
+    {{ else }}
+    <p>No articles found.</p>
+    {{ end }}
+</div>
 <div class="read-more-section">
     <a href="/articles" class="button">View All Articles</a>
 </div>
