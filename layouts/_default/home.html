@@ -1,34 +1,37 @@
 {{- define "main" }}
-   
+
 
 <!-- Hero Section -->
 <div class="hero-section">
     <h1>Find Your Next Biodesign Career</h1>
     <p>Discover opportunities at the intersection of biology and design. Browse the latest jobs and stay updated with industry insights.</p>
-    <a href="/jobs" class="button">View All Jobs</a>
 </div>
 
 <!-- Latest Jobs Section -->
 <h2 class="section-heading">Latest Job Opportunities</h2>
-
-<!-- Debug information -->
-<div style="background: #ffebee; padding: 10px; margin: 10px 0;">
-    {{ $jobs := where .Site.RegularPages "Section" "jobs" }}
-    <p>Debug: Found {{ len $jobs }} jobs</p>
-</div>
-
-
-
-<div class="posts-list">
-    {{ $jobs := where .Site.RegularPages "Section" "jobs" }}
-    {{ range first 5 $jobs }}
-    <article class="post-entry">
-        <!-- ...existing code... -->
-    </article>
+<div class="job-listings">
+    {{/* Sort regular pages by date descending, filter for 'jobs' section, take the first 5 */}}
+    {{ range first 5 (where .Site.RegularPages.ByDate.Reverse "Section" "jobs") }}
+        <div class="job-listing">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            {{/* Use .Params.description if available, otherwise fallback to .Summary */}}
+            <p>{{ .Params.description | default .Summary | truncate 150 }}</p>
+            <p><strong>Location:</strong> {{ .Params.location | default "N/A" }}</p>
+            <p><strong>Company:</strong> {{ .Params.company | default "N/A" }}</p>
+            <p><small>Posted on: {{ .Date.Format "January 2, 2006" }}</small></p> {{/* Added post date */}}
+        </div>
     {{ end }}
 </div>
 
+<div class="read-more-section">
+    <a href="/jobs" class="button">View All Jobs</a>
+</div>
 
+<!-- Latest Articles Section -->
+<h2 class="section-heading">Latest Articles</h2>
+
+<div class="read-more-section">
+    <a href="/articles" class="button">View All Articles</a>
+</div>
 
 {{- end }}
-
