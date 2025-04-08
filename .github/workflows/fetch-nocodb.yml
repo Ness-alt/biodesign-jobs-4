@@ -7,9 +7,9 @@ on:
       - main # Or master, production, etc.
   # Trigger manually from the Actions tab
   workflow_dispatch:
-  # Optional: Trigger on a schedule (e.g., every day at midnight UTC)
-  # schedule:
-  #   - cron: '0 0 * * *'
+  # Trigger on a schedule (every day at midnight UTC)
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   fetch_and_build:
@@ -26,8 +26,14 @@ jobs:
         with:
           node-version: '20' # Or your preferred Node.js version
           cache: 'npm'
-      - name: Install Node.js dependencies
-        run: npm ci # Assumes package.json and package-lock.json exist
+      - name: Create package.json if needed
+        run: |
+          if [ ! -f package.json ]; then
+            echo '{"name":"biodesign-jobs","version":"1.0.0","private":true,"dependencies":{}}' > package.json
+          fi
+      
+      - name: Install required dependencies
+        run: npm install axios js-yaml
 
       # Option 2: Setup Python
       # - name: Set up Python
@@ -42,35 +48,24 @@ jobs:
 
       # --- Run the fetch script ---
       - name: Fetch data from NocoDB API
-        # Adjust the run command based on your script (node or python)
-        run: node ./scripts/fetch-data.js # OR: python ./scripts/fetch_data.py
+        run: node ./scripts/fetch-data.js
         env:
-          # Use the NocoDB API key secret you created
           NOCODB_APIKEY: ${{ secrets.NOCODB_APIKEY }}
+          NOCODB_URL: 'https://app.nocodb.com/api/v2/tables/m0npw5ezr4q4rfv/records?offset=0&limit=25&where=&viewId=vws6w9ju2dz3fcmh'
 
-          # --- IMPORTANT: Add other necessary NocoDB details as secrets ---
-          # You'll likely need your NocoDB instance URL and specific Base/Table IDs.
-          # Add these as secrets in GitHub (e.g., NOCODB_URL, NOCODB_BASE_ID, NOCODB_TABLE_NAME)
-          # and uncomment/add them here:
-          # NOCODB_URL: ${{ secrets.NOCODB_URL }}
-          # NOCODB_BASE_ID: ${{ secrets.NOCODB_BASE_ID }}
-          # NOCODB_TABLE_NAME: ${{ secrets.NOCODB_TABLE_NAME }}
-          # Add any other environment variables your specific script needs
-
-      # --- Commit and push data changes ---
-      - name: Commit data files
+      # --- Commit and push job changes ---
+      - name: Commit job files
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          # Stage changes ONLY in the data directory
-          git add data/
-          # Check if there are changes to commit in the data/ directory
-          if git diff --staged --quiet data/; then
-            echo "No data changes to commit."
+          # Stage changes in the content/jobs directory
+          git add content/jobs/
+          # Check if there are changes to commit
+          if git diff --staged --quiet content/jobs/; then
+            echo "No job changes to commit."
           else
-            # Update commit message for NocoDB
-            git commit -m "chore: Update data from NocoDB [skip ci]"
-            echo "NocoDB data changes committed."
+            git commit -m "chore: Update job listings from NocoDB [skip ci]"
+            echo "Job listing changes committed."
           fi
       - name: Push changes
         # This action pushes changes back to the repo, triggering Cloudflare Pages
