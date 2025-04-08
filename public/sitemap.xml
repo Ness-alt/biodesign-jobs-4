@@ -2,10 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/articles/</loc>
-    <lastmod>2025-03-17T16:36:00-04:00</lastmod>
+    <loc>//localhost:1313/jobs/account-manager/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/jobs/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/jobs/perugia-perugia-italy/</loc>
+    <lastmod>2025-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/jobs/controls-engineer/</loc>
+    <lastmod>2025-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/articles/</loc>
     <lastmod>2025-03-17T16:36:00-04:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/biomaterials/</loc>
@@ -41,9 +53,6 @@
     <loc>//localhost:1313/jobs/oxman---footwear-designer/</loc>
     <lastmod>2025-03-17T16:34:00-04:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/jobs/</loc>
-    <lastmod>2025-03-17T16:34:00-04:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/tags/medical-devices/</loc>
     <lastmod>2025-03-17T16:34:00-04:00</lastmod>
   </url><url>
@@ -52,6 +61,9 @@
   </url><url>
     <loc>//localhost:1313/tags/senior-level/</loc>
     <lastmod>2025-03-17T16:34:00-04:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/jobs/paper-coating-engineer/</loc>
+    <lastmod>2025-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/blog/</loc>
     <lastmod>2025-01-09T16:20:56-05:00</lastmod>

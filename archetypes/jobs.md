@@ -18,42 +18,6 @@ tags: []
 applyto: ""
 ---
 
-{{/* Schema.org JobPosting structured data */}}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "JobPosting",
-  "title": "{{ .Title }}",
-  "datePosted": "{{ .Date }}",
-  "validThrough": "{{ .Params.validThrough }}",
-  "employmentType": "{{ .Params.employmentType }}",
-  "hiringOrganization": {
-    "@type": "Organization",
-    "name": "{{ .Params.company }}",
-    "sameAs": "{{ .Params.companyUrl }}",
-    "logo": "{{ .Params.companyLogo }}"
-  },
-  "jobLocation": {
-    "@type": "Place",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "{{ .Params.streetAddress }}",
-      "addressLocality": "{{ .Params.city }}",
-      "addressRegion": "{{ .Params.region }}",
-      "addressCountry": "{{ .Params.country }}"
-    }
-  },
-  "baseSalary": {
-    "@type": "MonetaryAmount",
-    "currency": "{{ .Params.salaryCurrency }}",
-      "value": {
-      "@type": "QuantitativeValue",
-      "value": "{{ .Params.salaryValue }}",
-      "unitText": "{{ .Params.salaryUnit }}"
-    }
-  }
-}
-</script>
 
 {{/* Job details section */}}
 <div class="job-meta">
