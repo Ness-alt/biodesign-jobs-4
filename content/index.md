@@ -1,5 +1,5 @@
 ---
-title: "Find you niche in the bioeconomy"
+title: "Find your niche in the bioeconomy"
 layout: "home"
 hidemeta: true
 ---

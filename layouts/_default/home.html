@@ -7,6 +7,17 @@
     <p>Discover opportunities at the intersection of biology and design. Browse the latest jobs and stay updated with industry insights.</p>
 </div>
 
+<!-- debug section -->
+<main id="main">
+    <div>
+      <h1 id="title">{{ .Title }}</h1>
+      {{ range .Pages }}
+        {{ .Render "summary" }}
+      {{ end }}
+    </div>
+  </main>
+
+
 <!-- Latest Jobs Section -->
 <h2 class="section-heading">Latest Job Opportunities</h2>
 <div class="job-listings">
