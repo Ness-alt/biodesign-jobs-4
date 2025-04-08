@@ -14,6 +14,12 @@ if (!API_TOKEN) {
 
 // Function to convert a title to a slug
 function slugify(text) {
+  // Handle null or undefined values
+  if (text == null) {
+    console.warn('Warning: Received null or undefined text for slugify, using default');
+    return 'untitled-job';
+  }
+  
   return text
     .toString()
     .toLowerCase()
@@ -86,16 +92,30 @@ async function fetchAndCreateJobs() {
     
     // Process each job
     for (const job of jobs) {
-      const slug = slugify(job.title);
-      const filename = `${slug}.md`;
-      const filePath = path.join(jobsDir, filename);
-      
-      // Create the markdown content
-      const markdown = createJobMarkdown(job);
-      
-      // Write to file
-      fs.writeFileSync(filePath, markdown);
-      console.log(`Created job file: ${filename}`);
+      try {
+        // Log job being processed to help with debugging
+        console.log(`Processing job: ${job.title || 'Untitled'}`);
+        
+        // Check if job has required fields
+        if (!job.title) {
+          console.warn(`Warning: Job missing title, using default slug`);
+        }
+        
+        const slug = slugify(job.title);
+        const filename = `${slug}.md`;
+        const filePath = path.join(jobsDir, filename);
+        
+        // Create the markdown content
+        const markdown = createJobMarkdown(job);
+        
+        // Write to file
+        fs.writeFileSync(filePath, markdown);
+        console.log(`Created job file: ${filename}`);
+      } catch (error) {
+        console.error(`Error processing job:`, error.message);
+        // Continue with next job instead of failing the entire process
+        continue;
+      }
     }
     
     console.log('Job creation completed successfully!');
