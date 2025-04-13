@@ -41,6 +41,10 @@ hideSummary = false
 showtoc = false
 tocopen = false
 
+[server]
+bind = "localhost"
+port = 1313
+
 # Custom CSS for purple buttons
 customCSS = ["css/custom.css"]
 
@@ -119,3 +123,4 @@ Find your next career opportunity or stay updated with the latest industry insig
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
+

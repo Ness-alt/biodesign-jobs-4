@@ -1,7 +1,7 @@
 # Hugo default output directory
-/public/
-/resources/_gen/
-/assets/jsconfig.json
+public/
+resources/_gen/
+assets/jsconfig.json
 hugo_stats.json
 
 # Temporary lock files
@@ -33,13 +33,4 @@ package-lock.json
 logs
 *.log
 npm-debug.log*
-public/sitemap.xml
-public/jobs/perugia-perugia-italy/index.html
-public/jobs/paper-coating-engineer/index.html
-public/jobs/index.xml
-public/jobs/index.html
-public/jobs/controls-engineer/index.html
-public/jobs/account-manager/index.html
-public/index.xml
-public/index.json
-public/index.html
+
