@@ -92,6 +92,33 @@
     font-size: 1.1em;
 }
 
+/* Card link styles */
+.card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.card-link .post-entry {
+    cursor: pointer;
+}
+
+.card-link .view-details {
+    color: #8A4FFF;
+    font-weight: 500;
+}
+
+.card-link:hover .view-details {
+    text-decoration: underline;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .hero-section {

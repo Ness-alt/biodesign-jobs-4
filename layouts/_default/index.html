@@ -36,4 +36,30 @@
     <a href="/jobs" class="button">View All Jobs</a>
 </div>
 
+<!-- Latest Articles Section -->
+<h2 class="section-heading">Latest Articles</h2>
+<div class="posts-list">
+    {{ $articles := where .Site.RegularPages "Section" "articles" }}
+    {{ range first 3 $articles }}
+    <article class="post-entry">
+        <header class="entry-header">
+            <h3>{{ .Title }}</h3>
+            <div class="entry-meta">
+                <span>{{ .Date.Format "January 2, 2006" }}</span>
+                {{ with .Params.author }} • <span>{{ . }}</span>{{ end }}
+            </div>
+        </header>
+        <div class="entry-content">
+            <p>{{ .Summary }}</p>
+        </div>
+        <footer class="entry-footer">
+            <a href="{{ .Permalink }}">Read More →</a>
+        </footer>
+    </article>
+    {{ end }}
+</div>
+<div class="read-more-section">
+    <a href="/articles" class="button">View All Articles</a>
+</div>
+
 {{- end }}

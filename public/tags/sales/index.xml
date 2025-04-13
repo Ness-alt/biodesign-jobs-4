@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sales on Biodesign Jobs</title>
-    <link>//localhost:50415/tags/sales/</link>
+    <link>//localhost:1313/tags/sales/</link>
     <description>Recent content in Sales on Biodesign Jobs</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 07 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:50415/tags/sales/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/sales/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Account Manager</title>
-      <link>//localhost:50415/jobs/account-manager/</link>
+      <link>//localhost:1313/jobs/account-manager/</link>
       <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:50415/jobs/account-manager/</guid>
+      <guid>//localhost:1313/jobs/account-manager/</guid>
       <description>&lt;h3 id=&#34;about-the-job&#34;&gt;About the Job&lt;/h3&gt;
 &lt;p&gt;🎯 Account manager&lt;/p&gt;
 &lt;p&gt;🌍 London, N4&lt;/p&gt;

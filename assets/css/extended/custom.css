@@ -1,3 +1,29 @@
+/* Custom Fonts */
+@font-face {
+    font-family: 'Iosevka'; /* Choose a name for your font */
+    src: url('static/fonts/Iosevka-Regular.woff2') format('woff2'); /* Path to your WOFF2 file */
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Iosevka'; /* Choose a name for your font */
+    src: url('static/fonts/Iosevka-Bold.woff2') format('woff2');
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: 'Iosevka'; /* Choose a name for your font */
+    src: url('static/fonts/Iosevka-Italic.woff2') format('woff2'); 
+    font-style: italic, oblique;
+  }
+
+  @font-face {
+    font-family: 'Iosevka'; /* Choose a name for your font */
+    src: url('static/fonts/Iosevka-BoldItalic.woff2') format('woff2'); 
+    font-style: italic, oblique;
+  }
+  
+
 /* Button styles */
 .button {
     background-color: #8A4FFF;
@@ -8,7 +34,7 @@
     display: inline-block;
     transition: all 0.1s ease;
     border: 1px solid #8A4FFF;
-    font-family: monospace;
+    font-family: "Iosevka", monospace;
     text-transform: uppercase;
     font-size: 0.9rem;
     letter-spacing: 0.5px;
@@ -85,7 +111,7 @@
 
 /* edits to posts meta */
 .post-meta { 
-    font-family: monospace;
+    font-family: "Iosevka", monospace;
     font-size: 0.9rem;
     color: var(--secondary);
     margin: 0;
@@ -97,6 +123,9 @@
 .apply-now-button{
     color: #9370DB;
     text-decoration: underline;
+    font-family: "Iosevka", monospace;
+    font-size: 0.9rem;
+
     
 }
 
@@ -136,7 +165,7 @@
     cursor: pointer;
     text-decoration: underline;
     padding: 0;
-    font-family: monospace;
+    font-family: "Iosevka", monospace;
     font-size: 0.9rem;
     display: inline;  /* Remove flex display */
     margin: 0;
