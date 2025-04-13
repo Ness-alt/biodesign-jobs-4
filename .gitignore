@@ -28,6 +28,7 @@ package-lock.json
 .vscode
 *.swp
 *.swo
+.hintrc
 
 # Logs
 logs
