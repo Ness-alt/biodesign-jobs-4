@@ -7,9 +7,7 @@ employmentType: FULL_TIME
 company: MycoWorks
 companyUrl: ''
 companyLogo: >-
-  https://s4-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/083/400/original/MycoworksLogo_dark_blue.png?1618978493,article,Controls
-  Engineer,Union, South Carolina, United
-  States,https://job-boards.greenhouse.io/mycoworks/jobs/5483401004
+  https://s4-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/083/400/original/MycoworksLogo_dark_blue.png?1618978493
 streetAddress: ''
 city: Union, South Carolina, United States
 region: ''
@@ -18,7 +16,7 @@ salaryCurrency: USD
 salaryValue: 0
 salaryUnit: YEAR
 tags: []
-applyto: ''
+applyto: 'https://job-boards.greenhouse.io/mycoworks/jobs/5483401004'
 ---
 
 # Job Application for Controls Engineer at MycoWorks
