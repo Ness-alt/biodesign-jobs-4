@@ -1,7 +1,7 @@
 ---
 title: Perugia, Perugia, Italy
 date: '2025-04-03T00:00:00.000Z'
-validThrough: '2025-05-08T04:09:33.973Z'
+validThrough: '2025-05-13T02:30:40.423Z'
 draft: false
 employmentType: FULL_TIME
 company: Hypesound
@@ -15,7 +15,7 @@ country: ' Italy'
 salaryCurrency: USD
 salaryValue: 0
 salaryUnit: YEAR
-tags: [test]
+tags: []
 applyto: ''
 section: "jobs"
 ---

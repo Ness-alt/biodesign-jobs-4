@@ -1,7 +1,7 @@
 ---
 title: Paper & Coating Engineer
 date: '2025-02-17T00:00:00.000Z'
-validThrough: '2025-05-08T04:09:33.970Z'
+validThrough: '2025-05-13T02:30:40.419Z'
 draft: false
 employmentType: FULL_TIME
 company: Notpla
@@ -15,7 +15,7 @@ country: GB
 salaryCurrency: USD
 salaryValue: 0
 salaryUnit: YEAR
-tags: [engineering]
+tags: []
 applyto: ''
 section: "jobs"
 ---
@@ -40,90 +40,107 @@ We are seeking a highly skilled and proactive Paper & Coating Engineer with indu
 
 #### Formulation Development & Optimisation
 
-* Design and optimise seaweed-based coatings and paper formulations, balancing key properties such as adhesion, flexibility, barrier performance, and biodegradability.  
-* Conduct rheology studies and material characterisation to fine-tune formulations for specific applications.
-* Identify and integrate novel raw materials to enhance performance and sustainability.
-* Work on material compatibility studies, ensuring formulations meet required industrial and regulatory standards.
-* Develop prototype samples and conduct performance testing under real-world conditions.
+*   Design and optimise seaweed-based coatings and paper formulations, balancing key properties such as adhesion, flexibility, barrier performance, and biodegradability.
+    
+*   Conduct rheology studies and material characterisation to fine-tune formulations for specific applications.
+    
+*   Identify and integrate novel raw materials to enhance performance and sustainability.
+    
+*   Work on material compatibility studies, ensuring formulations meet required industrial and regulatory standards.
+    
+*   Develop prototype samples and conduct performance testing under real-world conditions.
+    
 
 #### Analytical Chemistry & Material Characterisation
 
-* Develop and validate analytical test methods to ensure consistency and reproducibility in formulation performance.
-* Assess film-forming properties, barrier properties, and mechanical performance of coatings and substrates.
-* Interpret data and provide insights to refine formulations based on performance outcomes.
+*   Develop and validate analytical test methods to ensure consistency and reproducibility in formulation performance.
+    
+*   Assess film-forming properties, barrier properties, and mechanical performance of coatings and substrates.
+    
+*   Interpret data and provide insights to refine formulations based on performance outcomes.
+    
 
 ### Scale-Up & Trials
 
-* Work closely with the process engineer to transition lab-scale formulations into pilot-scale and commercial-scale production.
-
-* Participate in pilot trials and factory production runs, ensuring formulations perform as expected in real-world conditions.
-
-* Troubleshoot formulation issues that arise during scale-up, working collaboratively with cross-functional teams.
-
-* Document all scale-up findings, optimising processes for efficiency and reproducibility.
-
+*   Work closely with the process engineer to transition lab-scale formulations into pilot-scale and commercial-scale production.
+    
+*   Participate in pilot trials and factory production runs, ensuring formulations perform as expected in real-world conditions.
+    
+*   Troubleshoot formulation issues that arise during scale-up, working collaboratively with cross-functional teams.
+    
+*   Document all scale-up findings, optimising processes for efficiency and reproducibility.
+    
 
 ### Project Management
 
-* Drive formulation work streams from concept to execution, ensuring key milestones are met on time.
-
-* Develop and maintain project timelines, coordinating with internal teams and external partners to ensure smooth execution.
-
-* Communicate project progress effectively with internal stakeholders, providing clear updates and risk assessments.
-
+*   Drive formulation work streams from concept to execution, ensuring key milestones are met on time.
+    
+*   Develop and maintain project timelines, coordinating with internal teams and external partners to ensure smooth execution.
+    
+*   Communicate project progress effectively with internal stakeholders, providing clear updates and risk assessments.
+    
 
 ### Cross-Functional Collaboration
 
-* Work closely with the entire technical team, ensuring formulation strategies align with process capabilities.
-
-* Translate complex scientific findings into clear, actionable insights for non-technical stakeholders.
-
+*   Work closely with the entire technical team, ensuring formulation strategies align with process capabilities.
+    
+*   Translate complex scientific findings into clear, actionable insights for non-technical stakeholders.
+    
 
 ### Quality Assurance & Documentation
 
-* Ensure formulations meet regulatory and industrial standards, documenting all formulation parameters and testing results.
-
-* Maintain detailed formulation records, creating Standard Operating Procedures (SOPs) to ensure reproducibility.
-
-* Work with quality teams to implement quality control measures in formulation testing and production.
+*   Ensure formulations meet regulatory and industrial standards, documenting all formulation parameters and testing results.
+    
+*   Maintain detailed formulation records, creating Standard Operating Procedures (SOPs) to ensure reproducibility.
+    
+*   Work with quality teams to implement quality control measures in formulation testing and production.
+    
 
 External Partnership Building
 
-* Identify and engage with external partners, such as material suppliers, labs, specialised contract manufacturers, and technology consultants, to fast-track scale-up activities.
+*   Identify and engage with external partners, such as material suppliers, labs, specialised contract manufacturers, and technology consultants, to fast-track scale-up activities.
+    
+*   Coordinate and oversee development activities with partners to ensure project alignment and adherence to company standards.
+    
 
-* Coordinate and oversee development activities with partners to ensure project alignment and adherence to company standards.
-## Your profile
+  
+
+##### Your profile
 
 Qualifications & Experience 
 
 ### Education & Industry Background
 
-* Bachelor’s, Master’s, or PhD in Polymer Science, Materials Science, Engineering, or a related discipline.
-
-* 5+ years of industry experience in coatings, paper-based materials, or polymer formulation.
-
-* Strong background in analytical chemistry and material characterization techniques.
-
+*   Bachelor’s, Master’s, or PhD in Polymer Science, Materials Science, Engineering, or a related discipline.
+    
+*   5+ years of industry experience in coatings, paper-based materials, or polymer formulation.
+    
+*   Strong background in analytical chemistry and material characterization techniques.
+    
 
 Technical Skills
 
-* Expertise in natural polymer coatings, surface treatments, and film-forming properties.
-
-* Hands-on experience with natural polymer formulations (e.g., starches, proteins, cellulose, alginates).
-
-* Knowledge of barrier coatings, adhesion technologies, and functional additives.
-
-* Deep knowledge in coating processes and paper production.
-
+*   Expertise in natural polymer coatings, surface treatments, and film-forming properties.
+    
+*   Hands-on experience with natural polymer formulations (e.g., starches, proteins, cellulose, alginates).
+    
+*   Knowledge of barrier coatings, adhesion technologies, and functional additives.
+    
+*   Deep knowledge in coating processes and paper production.
+    
 
 Partnership & Communication Skills
 
-* Ability to identify, establish, and manage external partnerships to accelerate scale-up activities and overcome resource constraints.
+*   Ability to identify, establish, and manage external partnerships to accelerate scale-up activities and overcome resource constraints.
+    
+*   Strong communication skills, both written and verbal, with the ability to collaborate effectively across internal teams and external stakeholders.
+    
+*   Demonstrated capacity to represent the company in technical discussions with partners and stakeholders.
+    
 
-* Strong communication skills, both written and verbal, with the ability to collaborate effectively across internal teams and external stakeholders.
-* Demonstrated capacity to represent the company in technical discussions with partners and stakeholders.
+  
 
-### About us
+##### About us
 
 Notpla is a family of regenerative packaging materials, made from seaweed and plants. Behind these products is a company of the same name, deeply committed to making the planet a healthier place. Winner of the prestigious Earthshot Prize, Notpla are famed for their innovative, scalable alternatives to plastic. These include the edible liquid bubbles - Ooho, their seaweed-coated food containers, single-use films and rigid materials. To date, their solutions have already replaced 16 million pieces of single-use plastic from entering our environment.
 
@@ -131,4 +148,4 @@ Notpla Limited takes inclusion and diversity seriously. It is important for us t
 
 ##### We are looking forward to hearing from you!
 
-Thank you for your interest in Notpla. Please fill out the following application form. Should you have difficulties with the upload of your data, please send an email to work@notpla.com.
+Thank you for your interest in Notpla. Please fill out the following application form. Should you have difficulties with the upload of your data, please send an email to work@notpla.com
