@@ -1,7 +1,7 @@
 ---
-title: Account Manager
+title: Untitled Job - 2025-04-07
 date: '2025-04-07T00:00:00.000Z'
-validThrough: '2025-05-13T18:06:38.522Z'
+validThrough: '2025-05-13T18:36:59.306Z'
 draft: false
 employmentType: FULL_TIME
 company: Shellworks
@@ -16,7 +16,7 @@ salaryCurrency: USD
 salaryValue: 0
 salaryUnit: YEAR
 tags: []
-applyto: ''
+applyto: https://shellworks.teamtailor.com/jobs/5668825-account-manager
 ---
 
 # Account Manager - Shellworks
