@@ -37,15 +37,6 @@
 <!-- Latest Articles Section -->
 <h2 class="section-heading">Latest Articles</h2>
 <div class="posts-list"> 
-    {{/* Debug information */}}
-    <div style="display: none;">
-        {{ $allPages := .Site.Pages }}
-        Total pages: {{ len $allPages }}
-        
-        {{ $articlePages := where .Site.RegularPages "Section" "articles" }}
-        Article pages: {{ len $articlePages }}
-    </div>
-    
     {{ range first 3 (where .Site.RegularPages "Section" "articles") }}
     <a href="{{ .Permalink }}" class="card-link">
         <article class="post-entry">
