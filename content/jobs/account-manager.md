@@ -1,7 +1,7 @@
 ---
 title: Account Manager
 date: '2025-04-07T00:00:00.000Z'
-validThrough: '2025-05-13T02:30:40.423Z'
+validThrough: '2025-05-13T16:51:05.540Z'
 draft: false
 employmentType: FULL_TIME
 company: Shellworks
@@ -17,7 +17,6 @@ salaryValue: 0
 salaryUnit: YEAR
 tags: []
 applyto: ''
-section: "jobs"
 ---
 
 # Account Manager - Shellworks

@@ -1,7 +1,7 @@
 ---
 title: Perugia, Perugia, Italy
 date: '2025-04-03T00:00:00.000Z'
-validThrough: '2025-05-13T02:30:40.423Z'
+validThrough: '2025-05-13T16:51:05.540Z'
 draft: false
 employmentType: FULL_TIME
 company: Hypesound
@@ -17,7 +17,6 @@ salaryValue: 0
 salaryUnit: YEAR
 tags: []
 applyto: ''
-section: "jobs"
 ---
 
 Chi siamo – HypesoundStiamo reinventando la fermentazione microbica grazie a una tecnologia brevettata basata sulle onde sonore. Il nostro approccio plug-and-play migliora significativamente la produttività di microalghe, lieviti e batteri, integrandosi facilmente in fermentatori e bioreattori già esistenti.
