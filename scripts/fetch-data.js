@@ -40,7 +40,7 @@ function formatDate(dateString) {
 function createJobMarkdown(job) {
   // Map NocoDB fields to Hugo frontmatter
   const frontmatter = {
-    title: `${job.title_job || 'Untitled Job'} - ${formatDate(job.datePosted).split('T')[0]}`,
+    title: job.title || 'n/a',  // Keep title clean, without date
     date: formatDate(job.datePosted) || new Date().toISOString(),
     validThrough: job.validThrough ? formatDate(job.validThrough) : new Date(new Date().setMonth(new Date().getMonth() + 1)).toISOString(),
     draft: false,
@@ -98,16 +98,18 @@ async function fetchAndCreateJobs() {
     // Process each job
     for (const job of jobs) {
       try {
-        // Log job being processed to help with debugging
         console.log(`Processing job: ${job.title || 'Untitled'}`);
         
-        // Check if job has required fields
         if (!job.title) {
           console.warn(`Warning: Job missing title, using default slug`);
         }
         
+        // Create date-based filename
+        const jobDate = job.datePosted ? new Date(job.datePosted) : new Date();
+        const dateString = jobDate.toISOString().split('T')[0]; // Format: YYYY-MM-DD
         const slug = slugify(job.title);
-        const filename = `${slug}.md`;
+        const filename = `${dateString}-${slug}.md`; // e.g., 2024-04-13-account-manager.md
+        
         const filePath = path.join(jobsDir, filename);
         
         // Create the markdown content
