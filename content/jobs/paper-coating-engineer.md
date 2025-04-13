@@ -1,7 +1,7 @@
 ---
 title: Paper & Coating Engineer
 date: '2025-02-17T00:00:00.000Z'
-validThrough: '2025-05-13T02:30:40.419Z'
+validThrough: '2025-05-13T16:51:05.536Z'
 draft: false
 employmentType: FULL_TIME
 company: Notpla
@@ -17,7 +17,6 @@ salaryValue: 0
 salaryUnit: YEAR
 tags: []
 applyto: ''
-section: "jobs"
 ---
 
 # Paper & Coating Engineer | Jobs at Notpla Limited
