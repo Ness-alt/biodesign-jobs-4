@@ -40,7 +40,7 @@ function formatDate(dateString) {
 function createJobMarkdown(job) {
   // Map NocoDB fields to Hugo frontmatter
   const frontmatter = {
-    title: job.title || 'Untitled Job',
+    title: `${job.title_job || 'Untitled Job'} - ${formatDate(job.datePosted).split('T')[0]}`,
     date: formatDate(job.datePosted) || new Date().toISOString(),
     validThrough: job.validThrough ? formatDate(job.validThrough) : new Date(new Date().setMonth(new Date().getMonth() + 1)).toISOString(),
     draft: false,
@@ -56,8 +56,13 @@ function createJobMarkdown(job) {
     salaryValue: job.salaryValue || 0,
     salaryUnit: job.salaryUnit || 'YEAR',
     tags: job.tags ? job.tags.split(',').map(tag => tag.trim()) : [],
-    applyto: job.applyto || ''
+    applyto: job.applyToLink || job.applyToEmail || ''
   };
+
+  // Validate application method exists
+  if (!job.applyToLink && !job.applyToEmail) {
+    console.warn(`Warning: Job "${job.title_job}" has no application method specified`);
+  }
 
   // Create the markdown content
   let content = '---\n';
