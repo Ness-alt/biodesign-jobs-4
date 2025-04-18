@@ -1,27 +1,10 @@
 /* Custom Fonts */
-@font-face {
-    font-family: 'Iosevka'; /* Choose a name for your font */
-    src: url('static/fonts/Iosevka-Regular.woff2') format('woff2'); /* Path to your WOFF2 file */
-    font-weight: normal;
-  }
-
   @font-face {
-    font-family: 'Iosevka'; /* Choose a name for your font */
-    src: url('static/fonts/Iosevka-Bold.woff2') format('woff2');
-    font-weight: bold;
-  }
-
-  @font-face {
-    font-family: 'Iosevka'; /* Choose a name for your font */
-    src: url('static/fonts/Iosevka-Italic.woff2') format('woff2'); 
-    font-style: italic, oblique;
-  }
-
-  @font-face {
-    font-family: 'Iosevka'; /* Choose a name for your font */
-    src: url('static/fonts/Iosevka-BoldItalic.woff2') format('woff2'); 
-    font-style: italic, oblique;
-  }
+    font-family: 'CommitMono'; /* Choose a name for your font */
+    src: url('/fonts/CommitMono.woff2') format('woff2'); 
+    font-feature-settings: "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1, "ss05" 1,"cv03" 1;
+}
+  
   
 
 /* Button styles */
@@ -34,7 +17,7 @@
     display: inline-block;
     transition: all 0.1s ease;
     border: 1px solid #8A4FFF;
-    font-family: "Iosevka", monospace;
+    font-family: "CommitMono", monospace;
     text-transform: uppercase;
     font-size: 0.9rem;
     letter-spacing: 0.5px;
@@ -111,7 +94,7 @@
 
 /* edits to posts meta */
 .post-meta { 
-    font-family: "Iosevka", monospace;
+    font-family: "CommitMono", monospace;
     font-size: 0.9rem;
     color: var(--secondary);
     margin: 0;
@@ -123,7 +106,7 @@
 .apply-now-button{
     color: #9370DB;
     text-decoration: underline;
-    font-family: "Iosevka", monospace;
+    font-family: "CommitMono", monospace;
     font-size: 0.9rem;
 
     
@@ -165,7 +148,7 @@
     cursor: pointer;
     text-decoration: underline;
     padding: 0;
-    font-family: "Iosevka", monospace;
+    font-family: "CommitMono", monospace;
     font-size: 0.9rem;
     display: inline;  /* Remove flex display */
     margin: 0;

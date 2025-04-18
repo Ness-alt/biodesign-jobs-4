@@ -16,13 +16,8 @@ salaryCurrency: USD
 salaryValue: 0
 salaryUnit: YEAR
 tags: []
-applyto: ''
+applytoEmail: 'work@notpla.com'
 ---
-
-# Paper & Coating Engineer | Jobs at Notpla Limited
-
-##### The Role
-
 At Notpla we’re at the leading edge of sustainable innovation, creating natural alternatives to single-use plastic packaging that’s carefully engineered to create a healthier planet. Founded on the belief that nature knows best, we’re an innovative, ideas and action-oriented scale-up who develop and manufacture uncompromisingly natural packaging solutions from seaweed and plants.
 
 As a Paper & Coating Engineer, you’ll be joining an innovative, fast moving and agile Formulation & Process team that pride themselves on their pivotal research and development.
@@ -35,11 +30,11 @@ Besides offering exciting roles and a great working environment, Notpla provides
 
 We are seeking a highly skilled and proactive Paper & Coating Engineer with industry experience in paper and coatings  to join our growing R&D team. This role is critical in developing and optimising seaweed-based formulations, ensuring they meet performance requirements and can be successfully scaled up for commercial use. The Paper & Coating Engineer will work closely with a formulation scientist and a process engineer, collaborating on research, formulation, and process improvements. This is an exciting opportunity to drive impactful R&D work for commercial projects.
 
-#### Key Responsibilities
+### Key Responsibilities
 
 #### Formulation Development & Optimisation
 
-*   Design and optimise seaweed-based coatings and paper formulations, balancing key properties such as adhesion, flexibility, barrier performance, and biodegradability.
+* Design and optimise seaweed-based coatings and paper formulations, balancing key properties such as adhesion, flexibility, barrier performance, and biodegradability.
     
 *   Conduct rheology studies and material characterisation to fine-tune formulations for specific applications.
     
@@ -101,10 +96,7 @@ External Partnership Building
     
 *   Coordinate and oversee development activities with partners to ensure project alignment and adherence to company standards.
     
-
-  
-
-##### Your profile
+## Your profile
 
 Qualifications & Experience 
 

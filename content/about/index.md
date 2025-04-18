@@ -2,6 +2,7 @@
 title: "About Biodesign Jobs"
 description: "Your premier destination for biodesign career opportunities and industry insights"
 layout: "single"
+hidemeta: true
 ---
 
 ## Welcome to Biodesign Jobs
