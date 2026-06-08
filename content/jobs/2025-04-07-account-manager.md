@@ -1,7 +1,7 @@
 ---
 title: Account Manager
 date: '2025-04-07T00:00:00.000Z'
-validThrough: '2026-07-07T02:51:18.992Z'
+validThrough: '2026-07-08T02:54:01.166Z'
 draft: false
 employmentType: FULL_TIME
 company: Shellworks
