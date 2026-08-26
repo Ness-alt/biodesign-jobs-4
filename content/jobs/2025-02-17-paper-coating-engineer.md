@@ -1,13 +1,12 @@
 ---
 title: Paper & Coating Engineer
 date: '2025-02-17T00:00:00.000Z'
-validThrough: '2026-09-25T00:51:39.288Z'
+validThrough: '2026-09-26T00:52:39.183Z'
 draft: false
 employmentType: FULL_TIME
 company: Notpla
 companyUrl: ''
-companyLogo: >-
-  https://assets.cdn.personio.de/logos/78046/social/e7684e51c4b13f0f4208fab9bffd3e49.png
+companyLogo: https://assets.cdn.personio.de/logos/78046/social/e7684e51c4b13f0f4208fab9bffd3e49.png
 streetAddress: White Post Lane Unit 8b
 city: London
 region: ''

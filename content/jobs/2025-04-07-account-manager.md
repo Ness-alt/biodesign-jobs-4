@@ -1,13 +1,12 @@
 ---
 title: Account Manager
 date: '2025-04-07T00:00:00.000Z'
-validThrough: '2026-09-25T00:51:39.298Z'
+validThrough: '2026-09-26T00:52:39.189Z'
 draft: false
 employmentType: FULL_TIME
 company: Shellworks
 companyUrl: ''
-companyLogo: >-
-  https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/4f7b5054-c15f-4499-a646-fb414f7c07c7/original.png
+companyLogo: https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/4f7b5054-c15f-4499-a646-fb414f7c07c7/original.png
 streetAddress: ''
 city: London
 region: ''
