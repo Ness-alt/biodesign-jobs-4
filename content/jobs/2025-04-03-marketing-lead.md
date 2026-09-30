@@ -1,7 +1,7 @@
 ---
 title: Marketing Lead
 date: '2025-04-03T00:00:00.000Z'
-validThrough: '2026-10-29T03:37:06.834Z'
+validThrough: '2026-10-30T03:23:32.400Z'
 draft: false
 employmentType: FULL_TIME
 company: Synonym
