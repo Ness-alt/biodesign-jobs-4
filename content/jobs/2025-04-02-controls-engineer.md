@@ -1,7 +1,7 @@
 ---
 title: Controls Engineer
 date: '2025-04-02T00:00:00.000Z'
-validThrough: '2026-12-02T03:46:40.832Z'
+validThrough: '2026-12-03T04:50:55.617Z'
 draft: false
 employmentType: FULL_TIME
 company: MycoWorks
