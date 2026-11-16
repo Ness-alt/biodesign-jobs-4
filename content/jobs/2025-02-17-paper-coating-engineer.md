@@ -1,7 +1,7 @@
 ---
 title: Paper & Coating Engineer
 date: '2025-02-17T00:00:00.000Z'
-validThrough: '2026-12-15T04:11:18.577Z'
+validThrough: '2026-12-16T04:10:33.117Z'
 draft: false
 employmentType: FULL_TIME
 company: Notpla
